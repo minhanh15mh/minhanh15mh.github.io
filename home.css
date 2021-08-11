@@ -1,0 +1,82 @@
+header{
+    background-image: url('imageweb/shecode.png');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height:100vh;
+    
+}
+.hero-image{
+    content:'';
+    width:100vw;
+    height:100vh;
+    background-color: rgb(238, 214, 218);
+    opacity:0.5;  
+    
+}
+
+/*selection menu bar*/
+
+.container{
+    margin:auto;  
+    position:fixed;
+    z-index: 1;
+    right:70px;
+    left:70px;
+}
+.row{
+    display:flex;
+    justify-content: space-between; /*tach 2 colum ra*/
+    padding:12px 0;
+    align-items: center;
+    
+}
+.menu-bar_logo p{
+    font-size:25px;
+    font-weight: Bold;
+    color:var(--main-color);
+     
+}
+
+.menu-bar_list{
+    display:flex;
+    list-style:none;
+   
+}
+.menu-bar_list li{
+    padding:10px 20px 10px 20px;
+    cursor:pointer;
+   
+}
+.menu-bar_list li:hover{
+    color:var(--main-color);
+    background-color:transparent;
+}
+
+/*section hero*/
+.hero-text{
+    text-align: center;
+    line-height:40px;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    
+}
+.hero-text button{
+    cursor:pointer;
+    border:none;
+    height:35px;
+    width:100px;
+    background-color:var(--main-color);
+    text-align: center;
+}
+.hero-text button:hover{
+    background-color: transparent;
+    color:var(--main-color);
+    border:1px solid var(--main-color);
+}
+.hero-text h1{
+    color:red;
+}
